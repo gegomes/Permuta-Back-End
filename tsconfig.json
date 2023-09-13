@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": [
+      "esnext",
+      "dom",
+    ],
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "typeRoots": [
+      "/src/@types",
+      "/node_modules/@types",
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+  }
+}
